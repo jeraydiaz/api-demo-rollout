@@ -21,12 +21,12 @@ spec:
         imagePullPolicy: Always
         ports:
         - name: http
-          containerPort: 8080
+          containerPort: 8000
           protocol: TCP
         resources:
           requests:
             memory: 32Mi
-            cpu: 5m
+            cpu: 15m
   strategy:
     blueGreen:
       autoPromotionEnabled: false
