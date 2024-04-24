@@ -5,7 +5,7 @@ metadata:
   labels:
     app: apidemo
 spec:
-  replicas: 10
+  replicas: 1
   revisionHistoryLimit: 1
   selector:
     matchLabels:
