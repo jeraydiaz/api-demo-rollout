@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: apidemo
-        image: jeraydiaz/apidemo:v1
+        image: jeraydiaz/apidemo:v3
         imagePullPolicy: Always
         ports:
         - name: http
